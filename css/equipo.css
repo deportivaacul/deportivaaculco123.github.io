@@ -1,0 +1,195 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h3{/* tutulo de texto*/
+    font-size: 2rem;
+    font-family: 'Poppins',sans-serif;
+    color: #67357b;
+    text-align: center;
+}/* tutulo de texto*/   
+
+body{/* texto*/
+    background-color: #dbebf1; 
+    font-family: 'Open Sans', sans-serif
+}/* texto*/
+
+main {/* iconos circulos */
+
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    cursor: pointer;
+}/* iconos circulos */
+
+.icon { /* iconos  editor circulo*/
+   position: relative;
+   width: 80px;
+   height: 80px;
+   border-radius: 50%;
+   transition: all, 8s;
+}/* iconos  editor circulo*/
+
+.icon:hover {/* iconos  editor circulo*/
+   background-color: rgb(8, 27, 244);
+   box-shadow: 0 0 20px rgb(28, 10, 230);
+}
+
+.icon:hover:nth-child(2) {
+   background-color: skyblue;
+   box-shadow: 0 0 20px skyblue;
+}
+
+.icon:hover:nth-child(3) {
+   background-color: rgb(224, 17, 131);
+   box-shadow: 0 0 20px rgb(255, 0, 174);
+}/* iconos  editor circulo*/
+
+.icon i{/* iconos  editor circulo*/
+   color: white;
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%,-50%);
+   font-size: 1.7rem;
+}/* iconos  editor circulo*/
+
+svg circle {/* iconos  editor circulo*/
+   stroke-dasharray: 150;
+}/* iconos  editor circulo*/
+
+.icon:hover circle {/* iconos  editor circulo*/
+   stroke-dasharray: 220;
+}/* iconos  editor circulo*/
+header{
+    width: 100%;
+    height: 600px;
+    background: #dbebf1;  
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, hsla(258, 35%, 85%, 0.308), hsla(258, 35%, 85%, 0.308)), url(../img/equipo.jpg); linear-gradient(to right, #E9E4F0, #D3CCE3);  
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, hsla(0, 0%, 3%, 0.664), hsla(0, 0%, 3%, 0.377)), url(../img/equipo.jpg); 
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-size: cover;
+    background-attachment:fixed;
+    background-position: center;
+}   
+    nav{/* iconos de arriva*/
+        text-align: center;
+        padding: 50px 100px 0px 100px;
+    }/* iconos de arriva*/
+    
+    nav > a{
+        color: #fff;
+        font-weight: 750;
+        text-decoration: none;
+        font-size: 16px;
+        margin-right: 10px;
+    }
+    
+    nav > a:hover{
+        text-decoration: underline;
+    }
+header .textos-header{/*texto de portada*/
+    display: flex;
+    height: 430px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}/*texto de portada*/
+
+.textos-header h1{
+    font-size: 40px;
+    color: rgb(249, 245, 245);
+}
+.textos-header h2{
+    font-size: 20px;
+    font-weight: 300px;
+    color: #fff;
+}
+/* About us */
+
+.contenedor-Informacion{
+    display: flex;
+    justify-content: space-evenly;
+}
+/* Codigo Imagen*/
+img {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.contenido{
+    display: flex;
+    margin: 60px;
+ background-color: #dbebf1;
+       
+}
+.secciones {
+    display: flex;
+    align-items: center;
+    padding: 30px;
+    text-align: justify;
+    background-color: #dbebf1;
+}
+.secciones h4{
+    margin-bottom: 15px;
+}
+.secciones h4 span{
+    background: #67357b;
+    color: #fff;
+    border-radius: 40%;
+    display: inline-block;
+    text-align: justify;
+    width: 10px;
+    height: 10px;
+    padding: 2px;
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, 5);
+
+}
+/* Codigo Imagen*/
+footer{
+    background: #414141;
+    padding: 60px 0 30px 0;
+    margin: auto;
+    overflow: hidden;
+}
+
+.contenedor-footer{
+    display: flex;
+    width: 90%;
+    justify-content: space-evenly;
+    margin: auto;
+    padding-bottom: 50px;
+    border-bottom: 1px solid #ccc;
+    
+}
+
+.content-foo{
+    text-align: center;
+}
+
+.content-foo h4{
+    color:#fff;
+    border-bottom: 3px solid #af20d3;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+
+.content-foo p{
+    color:#ccc;
+    
+}
+
+.titulo-final{
+    text-align: center;
+    font-size: 24px;
+    margin: 20px 0 0 0;
+    color:#9e9797;
+}
+
+
